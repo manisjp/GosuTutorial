@@ -1,4 +1,5 @@
 require "gosu"
+require_relative 'z_order'
 
 class Player
 
@@ -40,7 +41,7 @@ class Player
 	end
 
 	def draw
-		@image.draw_rot(@x, @y, 1, @angle)
+		@image.draw_rot(@x, @y, ZOrder::PLAYER, @angle)
 	end
 
 end
