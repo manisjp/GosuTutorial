@@ -1,0 +1,5 @@
+classes we will need:
+	ship
+	background/environment
+	stars
+	score
